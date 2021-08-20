@@ -15,7 +15,7 @@ const Navbar = props => {
                    
                 </div>
             
-        <nav className='menuNav'> {/* navbar-default */}
+        <nav className='menuNav'> 
 
             
             <ul className='links'>
