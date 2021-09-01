@@ -1,13 +1,27 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Tamanho_certo from './Imgs/Logo_borda.png'
 
+
 const Navbar = props => {
+    const [showMenu, setShowMenu] = useState(false)
+    let menu
+    if(showMenu){
+        menu = <div className='showMenu'>
+        <ul className='links' id='nav-ul'>
+            <li><a href='#about'>Sobre</a></li>
+            <li><a href='#services'>Serviços</a></li>
+            <li><a href='#portfolio'>Equipamento</a></li>
+            <li><a href='#contact'>Orçamento</a></li>
+        </ul>
+   </div>
+    }
     return (
-       
-            
+        <div>    
         <nav className='menuNav'> 
 
-            
+            <h4>
+                Desentope
+            </h4>
             <ul className='links' id='nav-ul'>
                 <li><a href='#about'>Sobre</a></li>
                 <li><a href='#services'>Serviços</a></li>
@@ -18,19 +32,23 @@ const Navbar = props => {
 
                 </a>
             </div>
-            <button className='Hamburger' id = 'Hamburger'>
-                <i className='fas fa-bars'>
+            {menu}
+            <div className = 'hamburger'>
+                <div className='glyphicon glyphicon-menu-hamburger' onClick = {() => setShowMenu(!showMenu)}>
 
-                </i>
-            </button>
+                </div>
+            </div>
+            
+            
             <ul className='links' id='nav-ul'>
 
                 <li><a href='#portfolio'>Equipamento</a></li>
                 <li><a href='#contact'>Orçamento</a></li>
 
             </ul>
-           
+            
         </nav>
+        </div>
     )
 }
 export default Navbar
