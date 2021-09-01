@@ -176,7 +176,7 @@ body {
     letter-spacing: 3px;
     align-items: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 15px;
+    font-size: 1.6rem;
     top: 0;
     left: 0;
 
@@ -184,7 +184,8 @@ body {
   }
   .links{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-wrap: nowrap;
     flex-direction: row;
     align-items: center;
   }
@@ -196,6 +197,17 @@ body {
     
     
   }
+  .nav-ul.show{
+    display: flex ;
+  }
+  .Hamburger{
+    display: none;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 3rem;
+    margin-right: 3rem ;
+  } 
   .links a:hover{
     background-color: white;
     color: #25945C!important;
@@ -295,7 +307,19 @@ body {
       display: flex;
       flex-direction: column;
     }
-  
+    .links{
+      display: none;
+    } 
+    .menuNav{
+      justify-content: space-between  ;
+    }
+    .Hamburger{
+      display: block;
+    }
+    .menuNav img{
+      width: 15%;
+      height: 15%;
+    }
     
   }
 
@@ -307,5 +331,12 @@ body {
     }
     .ServiceContainer2{
       justify-content: center;
+    }
+    
+  }
+  @media (max-width: 321px) {
+    .ServiceContainer2 img{
+      width: 70%;
+      height: 70%;
     }
   }

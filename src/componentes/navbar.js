@@ -3,22 +3,12 @@ import Tamanho_certo from './Imgs/Logo_borda.png'
 
 const Navbar = props => {
     return (
-        <header>
-                
-                <div className='Hamburger on'>
-                    
-                <div className='One'></div>
-                <div className='Two'></div>
-                <div className='Three'></div>
-                <div className='Four'></div> 
-                
-                   
-                </div>
+       
             
         <nav className='menuNav'> 
 
             
-            <ul className='links'>
+            <ul className='links' id='nav-ul'>
                 <li><a href='#about'>Sobre</a></li>
                 <li><a href='#services'>Serviços</a></li>
             </ul>
@@ -28,7 +18,12 @@ const Navbar = props => {
 
                 </a>
             </div>
-            <ul className='links'>
+            <button className='Hamburger' id = 'Hamburger'>
+                <i className='fas fa-bars'>
+
+                </i>
+            </button>
+            <ul className='links' id='nav-ul'>
 
                 <li><a href='#portfolio'>Equipamento</a></li>
                 <li><a href='#contact'>Orçamento</a></li>
@@ -36,7 +31,6 @@ const Navbar = props => {
             </ul>
            
         </nav>
-        </header>
     )
 }
 export default Navbar
