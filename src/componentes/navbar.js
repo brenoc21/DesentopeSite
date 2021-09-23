@@ -15,13 +15,12 @@ const Navbar = props => {
         </ul>
    </div>
     }
+    
     return (
         <div>    
         <nav className='menuNav'> 
 
-            <h4>
-                Desentope
-            </h4>
+            
             <ul className='links' id='nav-ul'>
                 <li><a href='#about'>Sobre</a></li>
                 <li><a href='#services'>Serviços</a></li>
@@ -34,9 +33,11 @@ const Navbar = props => {
             </div>
             {menu}
             <div className = 'hamburger'>
-                <div className='glyphicon glyphicon-menu-hamburger' onClick = {() => setShowMenu(!showMenu)}>
-
-                </div>
+                {!showMenu?
+                <div className='glyphicon glyphicon-menu-hamburger' onClick = {() => setShowMenu(!showMenu)}></div>:
+                <div className='glyphicon glyphicon-remove' onClick = {() => setShowMenu(!showMenu)}></div>
+            }
+                
             </div>
             
             

@@ -237,6 +237,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    width: 100%
   }
   .showMenu .links a{
     color: #fff!important;
@@ -277,6 +278,9 @@ body {
     font-size: 20px;
     margin-bottom: 20px;
     color: #25945C;
+  }
+  .hamburger{
+    align-self: flex-start;
   }
   .slideanim {visibility:hidden;}
   .slide {
@@ -348,7 +352,7 @@ body {
       display: none;
     } 
     .menuNav{
-      justify-content: space-between;
+      justify-content: flex-end;
       padding-bottom: 0rem;
     }
     .hamburger{
@@ -368,6 +372,9 @@ body {
     }
     .rowService .glyphicon{
       font-size: 2rem;
+    }
+    .logoMarca{
+      display: none;
     }
     
   }
