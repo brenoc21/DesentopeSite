@@ -31,7 +31,7 @@ const Navbar = props => {
             </ul>
             <div className='logoMarca'>
                 <a href='#home'>
-                    <img src={Tamanho_certo} alt='Tamanho_certo' width='90' height='90' />
+                    <img src={Tamanho_certo} alt='Tamanho_certo' width='60' height='60' />
 
                 </a>
             </div>

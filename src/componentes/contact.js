@@ -24,8 +24,9 @@ export default function ContactUs(){
                         <div className='col-sm-5'>
                             <p>Mande mensagem e responderemos dentro de 24h!</p>
                             <p><span className='glyphicon glyphicon-map-marker'></span> Fortaleza, CE</p>
-                            <p><span className='glyphicon glyphicon-phone'></span> +55 (85) 99911-5024</p>
+                            <p><span className='glyphicon glyphicon-phone'></span> +55 (85) 99932-4935</p>
                             <p><span className='glyphicon glyphicon-envelope'></span> desentopecontato@gmail.com</p>
+                            
                         </div>
                         <div className='col-sm-7 '>
                             <div className='row'>

@@ -41,35 +41,49 @@ const Home = props => {
                         <div className='coluna'>
                             <div className='rowService'>
                                 <span className='glyphicon glyphicon-chevron-right logo-small'></span>
-                                <h4>Serviço de auto vácuo</h4>
+                                <h4>Desentupimento de águas coletoras pluviais</h4>
                             </div>
                             <div className='rowService'>
                                 <span className='glyphicon glyphicon-chevron-right logo-small'></span>
                                 <h4>Limpeza de caixas de gordura</h4>
                             </div>
+                            <div className='rowService'>
+                                <span className='glyphicon glyphicon-chevron-right logo-small'></span>
+                                <h4>Desentupimento de tubulação</h4>
+                            </div>
 
                         </div>
 
                         <div className='coluna'>
                             <div className='rowService'>
                                 <span className='glyphicon glyphicon-chevron-right logo-small'></span>
-                                <h4>Desentupimento com roto tooter</h4>
+                                <h4>Desentupimento de colunas</h4>
                             </div>
                             <div className='rowService'>
                                 <span className='glyphicon glyphicon-chevron-right logo-small'></span>
-                                <h4>Limpeza de galerias e rede de esgoto</h4>
+                                <h4>Desentupimento com hidrojato</h4>
                             </div>
-                        </div>
-                        <div className='coluna'>
                             <div className='rowService'>
                                 <span className='glyphicon glyphicon-chevron-right logo-small'></span>
                                 <h4>Desentupimento de rede de esgoto</h4>
                             </div>
+                        </div>
+                        <div className='coluna'>
                             <div className='rowService'>
                                 <span className='glyphicon glyphicon-chevron-right logo-small'></span>
-                                <h4>Desentupimento e limpeza de caixas de gordura</h4>
+                                <h4>Desentupimento de ralos e pias</h4>
+                            </div>
+                            <div className='rowService'>
+                                <span className='glyphicon glyphicon-chevron-right logo-small'></span>
+                                <h4>Desentupimento de tanques</h4>
+                                
+                            </div>
+                            <div className='rowService'>
+                                <span className='glyphicon glyphicon-chevron-right logo-small'></span>
+                                <h4>Desentuminento de vasos</h4>
                             </div>
                         </div>
+                        
 
 
 
